@@ -23,7 +23,8 @@ public class Trie {
 		numnodes = 0;
 	}
 
-	public boolean FindWord(String word) {
+	public boolean FindWord(String word) 
+	{
 		return Find(word, root);
 	}
 
